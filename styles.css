@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+
 * {
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 a,
@@ -20,7 +23,7 @@ a:active {
 
 #left-navigation {
   background-color: #393A3D;
-  width: 12rem;
+  width: 15.5rem;
   height: 100%;
   color: #ffffff;
   display: flex;
@@ -28,7 +31,6 @@ a:active {
   justify-content: space-between;
   padding-top: 10px;
   padding-bottom: 10px;
-
   padding-right: 16px;
 }
 
@@ -50,13 +52,13 @@ a:active {
 }
 
 #logo-text {
-  font-size: 0.95em;
+  font-size: 1.25em;
 }
 
 .nav-item {
-  padding-top: 6px;
-  padding-bottom: 6px;
-  font-size: 0.75em;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  font-size: 1em;
   cursor: pointer;
   padding-left: 16px;
 }
@@ -69,6 +71,95 @@ a:active {
 
 #app-body-wrapper {
   background-color: orange;
-  width: 88%;
+  width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+#app-body-title {
+  background-color: #ffffff;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+  font-size: 1.75em;
+}
+
+#app-body {
+  background-color: #F4F5F8;
+  width: 100%;
+  height: 500px;
+  flex: 7
+}
+
+#footer {
+  background-color: #ffffff;
+  width: 100%;
+  flex: 2.5;
+}
+
+#app-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+
+}
+
+#textbox-1 {
+  width: 80%;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#textbox-1-header {
+  font-size: 2.2em;
+  letter-spacing: 0.8px;
+}
+
+#textbox-1-sub-header {
+  font-size: 1.25em;
+  margin-top: 0.3rem;
+}
+
+#textbox-2 {
+  background-color: #ffffff;
+  width: 60%;
+  font-size: 1em;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+  padding-right: 1.5rem;
+  border: 1px solid #0097E6;
+  border-radius: 4px;
+}
+
+
+#card-wrapper {
+  background-color: pink;
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+#card-container-1 {
+  background-color: blue;
+  width: 28%;
+  height: 180px;
+}
+
+#card-container-2 {
+  background-color: blue;
+  width: 28%;
+  height: 180px;
 }
