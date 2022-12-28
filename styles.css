@@ -91,7 +91,11 @@ a:active {
   background-color: #F4F5F8;
   width: 100%;
   height: 500px;
-  flex: 7
+  flex: 7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 #footer {
@@ -143,23 +147,38 @@ a:active {
 
 
 #card-wrapper {
-  background-color: pink;
   width: 100%;
-  height: 90%;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   padding-right: 20px;
   padding-left: 20px;
 }
 
 #card-container-1 {
-  background-color: blue;
-  width: 28%;
-  height: 180px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-top:14px solid #0077C5;
+  border-radius:4px;
+  margin-right: 20px;
+  padding-top:1rem;
+  padding-left:1.75rem;
+  padding-right:1.75rem;
+  padding-bottom:2rem;
+}
+#card-title{
+  font-size:1.2em;
+}
+#credit-count{
+  font-size:3.5em;
+  font-weight: 900;
+  padding-top: 0.5rem;
+}
+#remaining{
+  font-size:0.9em;
+}
+#btn-container{
+  padding-top:2rem;
 }
 
-#card-container-2 {
-  background-color: blue;
-  width: 28%;
-  height: 180px;
-}
