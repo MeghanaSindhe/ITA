@@ -1,0 +1,23 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+#app-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+#left-navigation {
+  background-color: #393A3D;
+  width: 12%;
+  height: 100%;
+}
+
+#app-body-wrapper {
+  background-color: orange;
+  width: 88%;
+  height: 100%;
+}
